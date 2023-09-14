@@ -21,7 +21,23 @@ a {
   font-size: 20px;
 }
 
-#mellan{
-    border: 3px solid orange;
-    
+#mellan {
+  display: flex;
+  border: 3px solid orange;
+  justify-content: space-between;
+}
+
+#mellan_v,
+#mellan_h {
+  width: 49%;
+}
+
+#rubrikv {
+  background-color: yellow;
+  border: 2px solid black;
+}
+
+#rubrikh {
+  background-color: pink;
+  border: 2px solid black;
 }
